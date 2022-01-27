@@ -31,9 +31,11 @@ img {
 
 #content {
   padding: 26px;
-  max-height: 800px;
-  max-width: 800px;
-  min-height: 600px;
+  max-height: 344px;
+  max-width: 257px;
+  min-height: 344px;
+  height: 344px;
+  width: 257px;
 
   background-color: white;
 }
@@ -72,4 +74,26 @@ img {
   border-radius: 7px;
   border: 0px;
 
+}
+
+#or {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginWith {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#withoutAccount {
+  margin: 20px;
+  background-color: white;
+  height: 44px;
+  width: 212px;
+  display: flex;
+  justify-content: center;
+  
 }
