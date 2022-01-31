@@ -1,6 +1,13 @@
 body {
-  background-color: rgb(241, 241, 241);
-  max-width: 800px;
+  
+  background-color: #f1f1f1;
+  width: 100%;
+  
+}
+
+html, body {
+  width: 100%;
+  
 }
 
 .square {
@@ -88,6 +95,10 @@ img {
   margin: 20px auto;
 }
 
+.loginWith a {
+  text-decoration: none;
+}
+
 #withoutAccount {
   margin: 20px;
   background-color: white;
@@ -96,4 +107,30 @@ img {
   display: flex;
   justify-content: center;
   
+}
+
+#navigator {
+  
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 75%;
+}
+
+#navigator a {
+  margin: 2px;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(133, 133, 133);
+}
+
+#forgotPassword {
+  display: flex;
+  justify-content: center;
+  
+}
+#forgotPassword a {
+  text-decoration: none;
+  color: #8a8a8a;
 }
